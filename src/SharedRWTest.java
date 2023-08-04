@@ -15,8 +15,8 @@ public class SharedRWTest {
 
     public static void main(String args[]) {
 
-        SharedRWTest sharedRWTest = new SharedRWTest();
         SharedRW sharedRW = new SharedRWNotifyWait();
+        SharedRWTest sharedRWTest = new SharedRWTest();
 
          class Reader implements Callable<Void> {
 
